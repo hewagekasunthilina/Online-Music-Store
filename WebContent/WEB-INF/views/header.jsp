@@ -188,7 +188,7 @@
                 
 
                     <a href="register"><button class="signupButton">Signup</button></a>
-                    <a href="login"><button class="loginButton" style="background-color: white">Login</button></a>
+                    <a href="login.jsp"><button class="loginButton" style="background-color: white">Login</button></a>
 
                 
 
