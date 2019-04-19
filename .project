@@ -28,4 +28,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/images/cover.png</name>
+			<type>1</type>
+			<location>C:/Users/Kasun Thilina/Desktop/WEBSITES/Images/cover.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>

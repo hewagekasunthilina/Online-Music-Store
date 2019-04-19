@@ -13,6 +13,7 @@
 <body>
 
 <img src="images/slide1.jpg" alt="Girl in a jacket" width="100%" height="600">
+<img src="images/slide2.jpg" alt="Girl in a jacket" width="100%" height="600">
 
 
 
