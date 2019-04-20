@@ -57,6 +57,7 @@
 			padding:14px 10px;
 			outline:none;
 			transition:0.25s;
+			cursor:pointer;
 		}
 		
 		.container input[type="text"]:focus,.container input[type="password"]:focus{
