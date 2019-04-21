@@ -36,7 +36,8 @@
 			background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)), url(images/cover.png) center no-repeat;
 			background-size: cover;
 			height: 200px;
-			position: fixed;
+			position:fixed;
+			z-index:2;
 			
 		}
 

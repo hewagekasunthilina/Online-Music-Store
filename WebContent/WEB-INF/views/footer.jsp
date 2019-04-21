@@ -5,88 +5,179 @@
 <head>
 <meta charset="ISO-8859-1">
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <style>
-            
-            body{
-                
-                font-family: calibri;
-                margin: 0px;
-            }
-        
-            .mainFooter{
-                
-	            height: auto;
-	            width: auto;
-                margin-left:auto;
-                margin-right: auto;
-	            background-color: #363636;
-	            padding: 30px;
-            }
-            
-            .details th, .details td{
-                color: white;
-                text-align: left;
-            }
-            
-            .details th{
-                color: dimgray;
-            }
-            
-            
-            
-        </style>
+
+		*{
+			margin: 0;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+
+		a{
+			text-decoration: none;
+			outline: none;
+		}
+
+		.footer-main-div{
+			width: 100%;
+			height: auto;
+			margin: auto;
+			background: #272727;
+			padding: 20px 0px;
+		}
+
+		.footer-social-icons{
+			width: 100%;
+			height: auto;
+			margin: auto;		
+		}
+
+		.footer-social-icons ul{
+			margin: 0px;
+			padding: 0px;
+			text-align: center;
+		}
+
+		.footer-social-icons ul li{
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			margin: 0px 10px;
+			border-radius: 100%;
+			background: #32CD32;
+		}
+
+		.footer-social-icons ul li a{
+			color: #272727;
+			font-size: 25px;
+			display: block;
+		}
+
+		.footer-social-icons ul li a i{
+			line-height: 50px;
+		}
+
+		.footer-menu-one{
+			width: 100%;
+			height: auto;
+			margin: auto;
+			margin-top: 25px;
+		}
+
+		.footer-menu-one ul{
+			margin: 0px;
+			padding: 0px;
+			text-align: center;
+		}
+
+		.footer-menu-one ul li{
+			display: inline-block;
+			margin: 0px 15px;
+		}
+
+		.footer-menu-one ul li a{
+			font-family: arial;
+			font-size: 15px;
+			font-weight: 600;
+			color: #fff;
+			text-transform: uppercase;
+		}
+
+		.footer-menu-one ul li a:hover{
+			color:crimson;
+		}
+
+		.footer-menu-two{
+			width: 100%;
+			height: auto;
+			margin: auto;
+			margin-top: 10px;
+		}
+
+		.footer-menu-two ul{
+			margin: 0px;
+			padding: 0px;
+			text-align: center;
+		}
+
+		.footer-menu-two ul li{
+			display: inline-block;
+			margin: 0px 15px;
+		}
+
+		.footer-menu-two ul li a{
+			font-family: arial;
+			font-size: 15px;
+			font-weight: 600;
+			color: #fff;
+			text-transform: uppercase;
+		}
+
+		.footer-menu-two ul li a:hover{
+			color: crimson;
+		}
+
+		.footer-bottom{
+			width: 100%;
+			height: auto;
+			margin: auto;
+			background: #32CD32;
+			padding: 10px;
+		}
+
+		.footer-bottom{
+			font-family: arial;
+			font-size: 14px;
+			text-align: center;
+			color: #fff;
+			font-weight: 600;
+			letter-spacing: 2px;
+		}
+
+		.footer-bottom p{
+			color: #fff;
+		}
+
+	</style>
 
 </head>
 <body>
 
-<div class="mainFooter">    
-            <div class="details">
-                <table align="center">
-                    <tr>
-                    	<th style="width: 300px;">CATEGORIES</th>
-                        <th style="width: 300px;">ABOUT</th>
-                        <th style="width: 300px;">SUPPORT</th>
-                        <th>FOLLOW US</th>
-                    </tr>
-                
-                    <tr>
-                    	<td>Instrument</td>
-                        <td>Music</td>
-                        <td>Customer Support</td>
-                        <td>Google</td>
-                    </tr>
-                
-                    <tr>
-                    	<td>Downloads</td>
-                        <td>Press & News</td>
-                        <td>Trust & Safety</td>
-                        <td>Facebook</td>
-                    </tr>
-                
-                    <tr>
-                    	<td>Catogory</td>
-                        <td>Terms of Service</td>
-                        <td></td>
-                        <td>Instagram</td>
+<div class="footer-main-div">
+		
+		<div class="footer-social-icons">
+			<ul>
+				<li><a href="#" target="blank"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#" target="blank"><i class="fab fa-google-plus"></i></a></li>
+				<li><a href="#" target="blank"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
 
-                    </tr>
-                    
-                    <tr>
-                    	<td>Store</td>
-                        <td>Privacy Policy</td>
-                        <td></td>
-                        <td>Twitter</td>
-                        
-                    </tr>
-                </table>
-                <br/>
-            </div>
-            <footer style="color: dimgray; text-align: center;">
-            	Last updated: <%= new java.util.Date() %><br/>
-            	Copyright &copy; MusicStore | Online Music Store 2019. All Rights Reserved.
-            </footer>
-        </div>
+		<div class="footer-menu-one">
+			<ul>
+				<li><a href="index.jsp">Home</a></li>
+				<li><a href="music.jsp">Music</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
 
+			<div class="footer-menu-two">
+			<ul>
+				<li><a href="index.jsp">Blog</a></li>
+				<li><a href="music.jsp">News</a></li>
+				<li><a href="#">Gallery</a></li>
+			</ul>
+		</div>
+
+
+	</div>
+</div>
+	<div class="footer-bottom">
+		<p>Design By : Weekend Kollo</p>
+	</div>
+	
 </body>
 </html>
