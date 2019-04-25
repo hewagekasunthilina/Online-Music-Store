@@ -46,7 +46,7 @@
 			height: 50px;
 			margin: 0px 10px;
 			border-radius: 100%;
-			background: #32CD32;
+			background: #B934FB;
 		}
 
 		.footer-social-icons ul li a{
@@ -123,7 +123,7 @@
 			width: 100%;
 			height: auto;
 			margin: auto;
-			background: #32CD32;
+			background: #B934FB;
 			padding: 10px;
 		}
 

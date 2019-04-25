@@ -35,7 +35,7 @@
 			height: 100vh;
 			background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)), url(images/cover.png) center no-repeat;
 			background-size: cover;
-			height: 200px;
+			height: 120px;
 			position:fixed;
 			z-index:2;
 			
@@ -48,7 +48,7 @@
 		}
 
 		nav{
-			padding-top: 5rem;
+			padding-top: 0rem;
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
@@ -58,7 +58,7 @@
 
 		.musica{
 			font-size: 3rem;
-			font-weight: 300;
+			font-weight: 600;
 			transform: translateX(-100rem);
 			animation: slideIn .5s forwards;
 		}
@@ -150,8 +150,8 @@
 			<nav>
 				<h1 class="musica"><a href="index.jsp">MU<span>S</span>ICA</a></h1>
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Music</a></li>
+					<li><a href="index.jsp">Home</a></li>
+					<li><a href="music.jsp">Music</a></li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>

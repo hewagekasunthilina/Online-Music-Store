@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    
 <jsp:include page="WEB-INF/views/header.jsp"/>   
 
 <!DOCTYPE html>
@@ -9,8 +10,10 @@
         
 <title>Home | Online Music Store</title>
 
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+	
 	<style>
 		
 		body{
@@ -21,21 +24,21 @@
 		}
 		
 		.wrapper{
-			padding-top:200px;
+			padding-top:120px;
 		}
 		
 
 		.showcase::after{
 			content: '';
 			height: 450px;
-			width: 100%;
-			background-image: url(images/slide2.jpg);
+			width: 1400px;
+			background-image: url(images/img1.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
 			display: block;
-			filter: blur(10px);
-			-webkit-filter:blur(10px);
+			filter: blur(8px);
+			-webkit-filter:blur(8px);
 			transition: all 100ms;
 		}
 
@@ -54,7 +57,7 @@
 			z-index: 1;
 			top: 10%;
 			left: 50%;
-			margin-top: 300px;
+			margin-top: 180px;
 			margin-left: -250px;
 			width: 500px;
 			height: 350px;
@@ -155,7 +158,7 @@
 		
 		.button {
   		border-radius: 5px;
- 		background-color: #63f461;
+ 		background-color: #B934FB	;
   		border: none;
   		color: black;
   		text-align: center;
@@ -263,21 +266,11 @@
 	</section>
 	
 </div>
+
+
 	<footer class="center bg-dark">
 		<p>MUSICA &copy; 2019</p>
 	</footer>
-	
-
-
-
-
-
-
-
-
-
-
-
 
 <jsp:include page="WEB-INF/views/footer.jsp"/>
 

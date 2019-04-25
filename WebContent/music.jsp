@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    
+<jsp:include page="WEB-INF/views/header.jsp"/>  
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,94 +10,133 @@
 
 <title>Music | Online Music Store</title>
 
-
 <style>
-		
-	.slideshow{
+	
+	body{
 		margin: 0;
 		padding: 0;
-		background: #313131;
-		padding-top:200px;
+		font-family: 'popins', sans-sarif;
 	}
 
-	.slider{
-		width: 1300px;
-		height: 400px;
-		background: url(images/slide1.jpg);	
-		animation: slide 20s infinite;
-		padding-top: 300px;
-		padding-left:425px;
+	.banner{
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
-	@keyframes slide{
-		25%{
-			background: url(images/slide2.jpg);
+	.banner video{
+		position: absolute;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		pointer-events: none;
+	}
 
-		}
+	.banner .content{
+		position: relative;
+		z-index: 1;
+		max-width: 1000px;
+		margin: 0 auto;
+		text-align: center;
+	}
 
-		50%{
-			background: url(images/cover.png);
-		}
+	.banner .content h1{
+		margin: 0;
+		padding: 0;
+		font-size: 4.5em;
+		text-transform: uppercase;
+		color: #fff;
+	}
 
-		75%{
-			background: url(images/slide1.jpg);
-		}
-
-		100%{
-			background: url(images/slide2.jpg);
-		}
+	.banner .content p{
+		font-size: 1.5em;
+		color: #fff;
 	}
 	
-	.button {
-  		border-radius: 5px;
- 		background-color: #63f461;
-  		border: none;
-  		color: black;
-  		text-align: center;
-  		font-size: 12px;
-  		padding: 8px;
-  		width: 150px;
- 		transition: all 0.5s;
-  		cursor: pointer;
-  		margin: 20px;
-	}	
-
-	.button span {
-		 cursor: pointer;
-		 display: inline-block;
-		 position: relative;
-		 transition: 0.5s;
+	/*buttons on video*/
+	
+	
+	.btn .button {
+	  border-radius: 4px;
+	  background-color: #B934FB;
+	  border: none;
+	  color: black;
+	  text-align: center;
+	  font-size: 13px;
+	  font-weight: 600;
+	  padding: 13px;
+	  width: 150px;
+	  transition: all 0.5s;
+	  cursor: pointer;
+	  margin: 5px;
+	  opacity:0.5;
 	}
 
-	.button span:after {
- 		 content: '\00bb';
- 		 position: absolute;
-  		 opacity: 0;
- 		 top: 0;
- 		 right: -20px;
-  		 transition: 0.5s;
+	.btn .button span {
+	  cursor: pointer;
+	  display: inline-block;
+	  position: relative;
+	  transition: 0.5s;
 	}
 
-	.button:hover span {
-  		padding-right: 25px;
+	.btn .button span:after {
+	  content: '\00bb';
+	  position: absolute;
+	  opacity: 0;
+	  top: 0;
+	  right: -20px;
+	  transition: 0.5s;
 	}
 
-	.button:hover span:after {
-  		pacity: 1;
-  		right: 0;
+	.btn .button:hover span {
+  	padding-right: 25px;
 	}
 
-	</style>
+	.btn .button:hover span:after {
+	  opacity: 1;
+	  right: 0;
+	}
+
+</style>
 
 </head>
 <body>
 
-<div class = "slideshow">
-	<div class="slider">
-		<button class="button"><span>LOGIN </span></button>
-		<button class="button"><span>SIGNUP </span></button>
+<div class="banner">
+	<video autoplay loop>
+		<source src="videos/video2.mp4" type="video/mp4">
+		
+	</video>
+	
+	<div class="content">
+		<h1>Your Music Store In Here</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+		<div class = "btn">
+		<button class="button"><span>Albums </span></button>
+		<button class="button"><span>Artist </span></button>
+		<button class="button"><span>Instruments </span></button>
+		<button class="button"><span>Store </span></button>
+		</div>
 	</div>
-	</div>
+</div>	
+
+
+
+
+
+
+<jsp:include page="WEB-INF/views/footer.jsp"/>
 
 </body>
 </html>
