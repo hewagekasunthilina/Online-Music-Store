@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
-<%@page import="javax.servlet.http.HttpSession"%>
-    
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,7 +48,7 @@
 		}
 
 		nav{
-			padding-top: 0rem;
+			padding-top: 1rem;
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
@@ -139,6 +139,10 @@
 				transform: translateX(0);
 			}
 		}
+		
+		/*search bar*/
+		
+		
 		
 	</style>
 

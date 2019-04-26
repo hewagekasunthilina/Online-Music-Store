@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
-<jsp:include page="WEB-INF/views/header.jsp"/>  
+<jsp:include page="WEB-INF/views/header.jsp"/>  <!--Header-->
 
 <!DOCTYPE html>
 <html>
@@ -15,7 +15,6 @@
 	body{
 		margin: 0;
 		padding: 0;
-		font-family: 'popins', sans-sarif;
 	}
 
 	.banner{
@@ -109,7 +108,7 @@
 
 <div class="banner">
 	<video autoplay loop>
-		<source src="videos/video2.mp4" type="video/mp4">
+		<source src="videos/video3.mp4" type="video/mp4">
 		
 	</video>
 	
@@ -124,7 +123,7 @@
 		
 		<div class = "btn">
 		<button class="button"><span>Albums </span></button>
-		<button class="button"><span>Artist </span></button>
+		<a href= "artist.jsp"><button class="button"><span>Artist </span></button></a>
 		<button class="button"><span>Instruments </span></button>
 		<button class="button"><span>Store </span></button>
 		</div>

@@ -3,7 +3,7 @@
     
 <meta name="viewport" content="width=devicewidth, initial-scale=1">
     
-<jsp:include page="WEB-INF/views/header.jsp"/>   
+<jsp:include page="WEB-INF/views/header.jsp"/>   <!--Header-->
 
 <!DOCTYPE html>
 <html>
@@ -363,26 +363,7 @@
 		background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.10)), url(images/third_day.jpg);
 	}
 
-	.xop-info{
-		position: absolute;
-		width: inherit;
-		height: inherit;
-	}
-
-	.xop-info h3{
-		font-family: 'Tangerine', pacifiro;
-		font-weight: 400;
-		color: #fff;
-		font-size: 42px;
-		margin: 0 30px;
-		padding: 100px 0 0 0;
-		line-height: 1.5;
-	}
-
-	.xop-info p{
-		font-family: sans-serif;
-		color: #fff;
-	}
+	
 		
 	</style>
 
@@ -457,95 +438,80 @@
 </div>
 
 <div class="xop-section">
+	<h1 class="section-title">Top Rated</h1>
+		<div class="border">
+			
+		</div>
+		
 	<ul class="xop-grid">
 		<li>
-			<div class="xop-box xop-img-1">
-				<a href="#">
-					<h3>Paint</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.</p>
-				</a>
+			<a href = "index.jsp">
+			<div class="xop-box xop-img-1">	 
 			</div>
+			</a>
 		</li>
 
 		<li>
-			<div class="xop-box xop-img-2">
-				<a href="#">
-					<h3>Paint</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.</p>
-				</a>
+			<a href = "index.jsp">
+			<div class="xop-box xop-img-2">	 
 			</div>
+			</a>
 		</li>
 
 		<li>
-			<div class="xop-box xop-img-3">
-				<a href="#">
-					<h3>Paint</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.</p>
-				</a>
+			<a href = "index.jsp">
+			<div class="xop-box xop-img-3">	 
 			</div>
+			</a>
 		</li>
 
 		<li>
-			<div class="xop-box xop-img-4">
-				<a href="#">
-					<h3>Paint</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.</p>
-				</a>
+			<a href = "index.jsp">
+			<div class="xop-box xop-img-4">	 
 			</div>
+			</a>
 		</li>
 
 		<li>
-			<div class="xop-box xop-img-5">
-				<a href="#">
-					<h3>Paint</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.</p>
-				</a>
+			<a href = "index.jsp">
+			<div class="xop-box xop-img-5">	 
 			</div>
+			</a>
 		</li>
 
 		<li>
-			<div class="xop-box xop-img-6">
-				<a href="#">
-					<h3>Paint</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.</p>
-				</a>
+			<a href = "index.jsp">
+			<div class="xop-box xop-img-6">	 
 			</div>
+			</a>
 		</li>
 		
 		<li>
-			<div class="xop-box xop-img-7">
-				<a href="#">
-					<h3>Paint</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.</p>
-				</a>
+			<a href = "index.jsp">
+			<div class="xop-box xop-img-7">	 
 			</div>
+			</a>
 		</li>
 		
 		<li>
-			<div class="xop-box xop-img-8">
-				<a href="#">
-					<h3>Paint</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.</p>
-				</a>
+			<a href = "index.jsp">
+			<div class="xop-box xop-img-8">	 
 			</div>
+			</a>
 		</li>
 		
 		<li>
-			<div class="xop-box xop-img-9">
-				<a href="#">
-					<h3>Paint</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.</p>
-				</a>
+			<a href = "index.jsp">
+			<div class="xop-box xop-img-9">	 
 			</div>
+			</a>
 		</li>
 		
 		<li>
-			<div class="xop-box xop-img-10">
-				<a href="#">
-					<h3>Paint</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.</p>
-				</a>
+			<a href = "index.jsp">
+			<div class="xop-box xop-img-10">	 
 			</div>
+			</a>
 		</li>
 	</ul>
 </div>
