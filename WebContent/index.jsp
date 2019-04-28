@@ -14,6 +14,8 @@
         
 <title>Home | Online Music Store</title>
 
+	
+
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -385,18 +387,13 @@
 				Be the food of love, play on..
 				<div class = "b">
 				
-			
+			   
 				
 				<a href = "login.jsp"><button class="button"><span>LOGIN </span></button></a>
 				<a href = "signin.jsp"><button class="button"><span>SIGNUP </span></button></a>
 				
+				 
 				
-				
-				<a href="login">
-                    	<button class="button"><span>LOGOUT</span></button>
-                    </a>
-                    
-                    
 				
 				</div>
 				

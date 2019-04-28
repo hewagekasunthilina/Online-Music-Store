@@ -108,7 +108,7 @@
 
 <div class="mainArea" align="center">
         <div class="sideBar" align="center">
-        	<img src = "images/sidebar.png" width = "280" height="550">
+        	<img src = "images/side.png" width = "280" height="550">
         </div>
         <div class="content">
             
@@ -117,25 +117,25 @@
 			<br>
 			
 			
-        		<p style="color: green;" align="center"><br/><confirm</p>
+        		<p style="color: green;" align="center"><br/></p>
         	
 			
 			<form method = "POST" action = "update-music">
 
 				  <input type = "text" name = "musicID" placeholder = "Music Id of the Music you need to Change" required/><br>
 				 
-				  <input type = "text" name="gameName" placeholder="New Game Name*" required><br/>
+				  <input type = "text" name="musicName" placeholder="New Music Name*" required><br/>
 				  
-				  <input type = "text" name="gametag" placeholder="New Game Tag*" required><br/>
+				  <input type = "text" name="musictag" placeholder="New Music Tag*" required><br/>
 				  
-				  <input type = "text" name="gameCategory" placeholder="New Game Category*" required><br/>
+				  <input type = "text" name="musicCategory" placeholder="New Music Category*" required><br/>
 				 
 				  <input type = "submit" value = "Update"/> &nbsp;
 				  <input type = "reset" value = "Reset"/> <br/> <br/>
 				  
 			</form>
             
-            <a href="edit-game"><button class="back" style="width: 180px;">Back</button></a>
+            <a href="edit-music"><button class="back" style="width: 180px;">Back</button></a>
             
         </div>
     </div>
