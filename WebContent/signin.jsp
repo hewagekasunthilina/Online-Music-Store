@@ -107,11 +107,12 @@
         
 		<form method="POST" action="login">
 			<div>
-				<input type="text" placeholder="Enter your username" name="username" required><br/>
-				<input type="text" placeholder="Enter your E-mail" name="email" required><br/>
-				<input type="text" placeholder="Enter your NIC number" name="nic" required><br/>
-				<input type="text" placeholder="Enter your mobile number" name="mobilenumber" required><br/>
-				<input type="text" placeholder="Enter your address" name="address" required><br/>
+				<input type="text" placeholder="Enter your firstname" name="firstname" required><br/>
+				<input type="text" placeholder="Enter your lastname" name="lastname" required><br/>
+				<input type="text" placeholder="Enter your gender" name="gender" required><br/>
+				<input type="text" placeholder="Enter your country" name="country" required><br/>
+				<input type="text" placeholder="Enter your email" name="email" required><br/>
+				<input type="text" placeholder="Enter your mobilenumber" name="mobilenumber" required><br/>
 				<input type="Password" placeholder="Enter your Password" name="Password_1" required><br/>
 				<input type="Password" placeholder="Re-type your Password" name="Password_2" required><br/>
                 

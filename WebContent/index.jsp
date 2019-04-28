@@ -1,3 +1,5 @@
+
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
@@ -282,7 +284,7 @@
 		
 		/*image grid*/
 		
-		.xop-section{
+	.xop-section{
 		max-width: 100%;
 		margin: 0 auto;
 		padding: 6% 2%;
@@ -383,8 +385,18 @@
 				Be the food of love, play on..
 				<div class = "b">
 				
+			
+				
 				<a href = "login.jsp"><button class="button"><span>LOGIN </span></button></a>
 				<a href = "signin.jsp"><button class="button"><span>SIGNUP </span></button></a>
+				
+				
+				
+				<a href="login">
+                    	<button class="button"><span>LOGOUT</span></button>
+                    </a>
+                    
+                    
 				
 				</div>
 				
