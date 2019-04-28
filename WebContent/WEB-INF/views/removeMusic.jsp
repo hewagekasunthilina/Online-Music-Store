@@ -1,13 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
-
-    
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-
+	
 	<style>
 
         h1{
@@ -112,42 +110,34 @@
 </head>
 <body>
 
- <div class="mainArea" align="center">
+<div class="mainArea" align="center">
         <div class="sideBar" align="center">
         	<img src = "images/side.png" width = "280px" height="550px">
         </div>
         <div class="content">
             
-			<font size = "10" ><b> ADD MUSIC </b></font>
+			<font size = "10" ><b> REMOVE MUSIC </b></font>
 			<br>
 			
 			
         		<p style="color: green;" align="center"><br/></p>
         	
 			
-			<form method = "POST" action = "add-music">
+			<form method = "POST" action = "remove-music">
 
-				  <input type = "text" name = "musicName" placeholder = "ADD Music Title" required/><br>
-				  <font  color = "#3090C7"> 
-				  Select The Category of the Music:<br/></font>
-				  <input type = "radio" name = "category" value = "RnB"  required/>RnB &nbsp;
-				  <input type = "radio" name = "category" value = "HipHop" required/>HipHop &nbsp;
-				  <input type = "radio" name = "category" value = "Bollywood" required/>Bollywood &nbsp;
-				  <input type = "radio" name = "category" value = "Jazz" required/>Jazz &nbsp;
-				  <input type = "radio" name = "category" value = "Other" required/>Other <br/><br/>
-				  <input type = "text" name="codeTag" placeholder="Enter the artist name" required><br/>
-				  <input type = "text" name="tag" placeholder="Enter keywords. Seperate with a space" required><br/><br/>
-				  <input type = "submit" value = "Add"/> &nbsp;
+				  <input type = "text" name = "musicName" placeholder = "ADD Music Name" required/><br>
+				 
+				  <input type = "text" name="MusicID" placeholder="Enter the Music ID*" required><br/>
+				 
+				  <input type = "submit" value = "Remove"/> &nbsp;
 				  <input type = "reset" value = "Reset"/> <br/> <br/>
-  
+				  
 			</form>
             
             <a href="edit-music"><button class="back" style="width: 180px;">Back</button></a>
             
         </div>
     </div>
-    
-
 
 </body>
 </html>
